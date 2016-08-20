@@ -23,7 +23,7 @@ while true; do
                         if [ $? -ne 0 ]; then
 				eval ${params_map["$1"]}=$2
                         else
-                                ${func:1} $1, $2
+                                ${func:1} $2
                         fi
 			shift 2 
 			;;
